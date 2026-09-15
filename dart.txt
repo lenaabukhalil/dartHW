@@ -1,0 +1,57 @@
+void main() {
+ // int x=6;
+ // print("x= $x");
+ // double y=6.1;
+//   print("y=$y");
+//   print("x+y =${x+y}");
+//   String z="Hello world";
+//   print(z);
+//   bool l=false;
+//   print(l);
+  
+//  int x = 5;
+//  int y = 10;
+
+//  x = x + y;  
+//  y = x - y;  
+//  x = x - y;  
+
+// print("x=$x"); 
+// print("y=$y");  
+  
+  
+//   List<String>list= ["farah","lina"];
+//   print(list);
+//   int age =18;
+//   if (age>=18)
+//   {
+//     print(age);
+//   }
+//   else {
+//     print ("not 18");    
+//   }
+//   int mark=99;
+ 
+//   if (mark>50 && mark<60){
+//     print("D");
+//   } else if(mark>60 && mark<70){
+//     print("C");
+//   } else if(mark>70 && mark<80){
+//     print("B");
+//   } else if(mark>80 && mark<90){
+//     print("A");
+//   } else if(mark>90){
+//     print("A+");
+//   }else print("Not Passe");
+  bool session = true ; 
+if (session != true) {
+  print("Home");
+} else {
+  print("login");      
+}
+  
+  
+  
+session ? print("login") : print("home"); 
+}
+
