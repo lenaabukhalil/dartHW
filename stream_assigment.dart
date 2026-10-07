@@ -8,7 +8,7 @@ Stream<int> downloadProgress() async*{
 void main() async{
   await for (final progress in downloadProgress()){
     if(progress ==100){
-      print("Download completed succecfully and is equal to 100");
+      print("Download completed successfully and is equal to 100");
     } else {
        print("Download: $progress%");
     }
